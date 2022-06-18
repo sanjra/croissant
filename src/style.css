@@ -4,16 +4,24 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 15px;
+  background: white;
 }
 
-h3 {
+h2 {
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+h4 {
+  margin-top: 10px;
   color: whitesmoke;
   font-size: 20px;
 }
@@ -31,11 +39,16 @@ a {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
+.external-links {
+  color: blue;
+  font-size: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: underline;
+}
+
 img {
   border-radius: 12px;
   display: inline-block;
-  max-width: 400px;
-  max-height: 700px;
 }
 
 .contact-email {
@@ -45,7 +58,7 @@ img {
 
 footer {
   text-align: center;
-  font-size: larger;
+  font-size: 18px;
   padding-top: 15px;
   padding-bottom: 50px;
 }
